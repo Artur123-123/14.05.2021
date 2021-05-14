@@ -99,3 +99,7 @@ divBook6.appendChild(pBook6)
 pBook6.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
 divBook6.appendChild(buttonUsun6)
 buttonUsun6.innerText = "Usuń"
+
+function usuwanie(){
+    
+}
