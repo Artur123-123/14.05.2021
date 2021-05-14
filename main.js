@@ -16,6 +16,19 @@ const divBook3 = document.createElement('div')
 const h3DivBook3 = document.createElement('h3')
 const pBook3 = document.createElement('p')
 
+const divBook4 = document.createElement('div')
+const h3DivBook4 = document.createElement('h3')
+const pBook4 = document.createElement('p')
+
+const divBook5 = document.createElement('div')
+const h3DivBook5 = document.createElement('h3')
+const pBook5 = document.createElement('p')
+
+const divBook6 = document.createElement('div')
+const h3DivBook6 = document.createElement('h3')
+const pBook6 = document.createElement('p')
+
+
 nav.setAttribute('class', 'navigation')
 h1.setAttribute('class', 'margin-header')
 
@@ -40,3 +53,25 @@ divBook3.appendChild(h3DivBook3)
 h3DivBook3.innerText = 'Book3'
 divBook3.appendChild(pBook3)
 pBook3.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
+
+divBooks.appendChild(divBook4)
+divBook4.setAttribute('id', '')
+divBook4.setAttribute('class', 'book')
+divBook4.appendChild(h3DivBook4)
+h3DivBook4.innerText = 'Book4'
+divBook4.appendChild(pBook4)
+pBook4.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
+
+divBooks.appendChild(divBook5)
+divBook5.setAttribute('class', 'book')
+divBook5.appendChild(h3DivBook5)
+h3DivBook5.innerText = 'Book5'
+divBook5.appendChild(pBook5)
+pBook5.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
+
+divBooks.appendChild(divBook6)
+divBook6.setAttribute('class', 'book')
+divBook6.appendChild(h3DivBook6)
+h3DivBook6.innerText = 'Book6'
+divBook6.appendChild(pBook6)
+pBook6.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
