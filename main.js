@@ -8,33 +8,37 @@ const divBook1 = document.createElement('div')
 const h3DivBook1 = document.createElement('h3')
 const pBook1 = document.createElement('p')
 const buttonUsun1 = document.createElement('button')
+const buttonEdycja1 = document.createElement('button')
 
 const divBook2 = document.createElement('div')
 const h3DivBook2 = document.createElement('h3')
 const pBook2 = document.createElement('p')
 const buttonUsun2 = document.createElement('button')
+const buttonEdycja2 = document.createElement('button')
 
 const divBook3 = document.createElement('div')
 const h3DivBook3 = document.createElement('h3')
 const pBook3 = document.createElement('p')
 const buttonUsun3 = document.createElement('button')
+const buttonEdycja3 = document.createElement('button')
 
 const divBook4 = document.createElement('div')
 const h3DivBook4 = document.createElement('h3')
 const pBook4 = document.createElement('p')
 const buttonUsun4 = document.createElement('button')
+const buttonEdycja4 = document.createElement('button')
 
 const divBook5 = document.createElement('div')
 const h3DivBook5 = document.createElement('h3')
 const pBook5 = document.createElement('p')
 const buttonUsun5 = document.createElement('button')
+const buttonEdycja5 = document.createElement('button')
 
 const divBook6 = document.createElement('div')
 const h3DivBook6 = document.createElement('h3')
 const pBook6 = document.createElement('p')
 const buttonUsun6 = document.createElement('button')
-
-const buttonUsun = document.createElement('button')
+const buttonEdycja6 = document.createElement('button')
 
 nav.setAttribute('class', 'navigation')
 h1.setAttribute('class', 'margin-header')
@@ -48,6 +52,8 @@ divBook1.appendChild(pBook1)
 pBook1.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
 divBook1.appendChild(buttonUsun1)
 buttonUsun1.innerText = "Usuń"
+divBook1.appendChild(buttonEdycja1)
+buttonEdycja1.innerText = "Edycja"
 
 divBooks.appendChild(divBook2)
 divBook2.setAttribute('id', 'grid-element2')
@@ -58,6 +64,8 @@ divBook2.appendChild(pBook2)
 pBook2.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
 divBook2.appendChild(buttonUsun2)
 buttonUsun2.innerText = "Usuń"
+divBook2.appendChild(buttonEdycja2)
+buttonEdycja2.innerText = "Edycja"
 
 divBooks.appendChild(divBook3)
 divBook3.setAttribute('id', 'grid-element3')
@@ -68,7 +76,8 @@ divBook3.appendChild(pBook3)
 pBook3.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
 divBook3.appendChild(buttonUsun3)
 buttonUsun3.innerText = "Usuń"
-
+divBook3.appendChild(buttonEdycja3)
+buttonEdycja3.innerText = "Edycja"
 
 divBooks.appendChild(divBook4)
 divBook4.setAttribute('id', 'grid-element4')
@@ -79,6 +88,8 @@ divBook4.appendChild(pBook4)
 pBook4.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
 divBook4.appendChild(buttonUsun4)
 buttonUsun4.innerText = "Usuń"
+divBook4.appendChild(buttonEdycja4)
+buttonEdycja4.innerText = "Edycja"
 
 divBooks.appendChild(divBook5)
 divBook5.setAttribute('id', 'grid-element5')
@@ -89,6 +100,8 @@ divBook5.appendChild(pBook5)
 pBook5.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
 divBook5.appendChild(buttonUsun5)
 buttonUsun5.innerText = "Usuń"
+divBook5.appendChild(buttonEdycja5)
+buttonEdycja5.innerText = "Edycja"
 
 divBooks.appendChild(divBook6)
 divBook6.setAttribute('id', 'grid-element6')
@@ -99,7 +112,9 @@ divBook6.appendChild(pBook6)
 pBook6.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sapien iaculis metus posuere mollis. Sed at lectus egestas augue condimentum mattis commodo in risus. Curabitur consectetur finibus rutrum. Praesent tristique sodales aliquet. Curabitur accumsan dolor a turpis feugiat, ac malesuada purus volutpat. Maecenas vel viverra quam, et mattis risus. Mauris at enim pharetra, venenatis mauris a, fringilla odio. Fusce in dictum justo. Donec posuere eu justo id mattis."
 divBook6.appendChild(buttonUsun6)
 buttonUsun6.innerText = "Usuń"
+divBook6.appendChild(buttonEdycja6)
+buttonEdycja6.innerText = "Edycja"
 
 function usuwanie(){
-    
+
 }
